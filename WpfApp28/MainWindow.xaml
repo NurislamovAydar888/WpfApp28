@@ -11,6 +11,18 @@
                 HorizontalAlignment="Left"
                 Margin="252,162,0,0"
                 VerticalAlignment="Top" />
+        <Grid>
+            <Image HorizontalAlignment="Left"
+                   Height="100"
+                   Margin="110,174,0,0"
+                   VerticalAlignment="Top"
+                   Width="100" />
+            <Border BorderThickness="1"
+                    BorderBrush="Black">
+                <Button Content="Button"
+                        Margin="0,0,307,274" />
+            </Border>
+        </Grid>
 
     </Grid>
 </Window>
